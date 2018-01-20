@@ -16,7 +16,8 @@ module Raiblocks
   end
 end
 
-rpc = Raiblocks::RPC.new({url: "http://www.providentjewelry.com", port: 7076})
+server = ""
+rpc = Raiblocks::RPC.new({url: server, port: 7076})
 
 result = rpc.account.account_history(
   account: "xrb_3t6k35gi95xu6tergt6p69ck76ogmitsa8mnijtpxm9fkcm736xtoncuohr3",
